@@ -1,8 +1,8 @@
 <div class="row m-5">
   <div class="col">
-    <h2><b>My Challenges</b></h2>
-    <p>Challenge are like matches. Player can join challenge and play challenge.</p>
-  </div>
+    <h1 class="qz-text-white-light"><b>My Challenges</b></h1>
+    <p class="qz-text-white-light" >Challenge are like matches. Player can join challenge and play challenge.</p>
+  </div>ß
 </div>
 <div class="row m-5">
   <!-- Datatable for list of challenges -->
@@ -41,7 +41,8 @@
     <div class="m-5">
       <!-- This block will show if there are no quizzes available -->
       <ng-template #elseBlock>
-        <h5>It seems you have not played any challenge!</h5>
+        <h5 class="qz-text-white-light">It seems you have not played any challenge, 
+        </h5 > <h5 class="qz-text-white-light"> one by entering the   <a  routerLink="/challenge/join-challenge" >Game Pin</a></h5> 
         
       </ng-template>
     </div>

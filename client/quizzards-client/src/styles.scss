@@ -8,7 +8,7 @@
 
 html, body{
     font-family: 'Rubik', sans-serif;
-    background-color: #115FBA;
+    background-color: #05f7af;
 }
 
 // color section
@@ -17,7 +17,7 @@ html, body{
 }
 
 .qz-bg-purple{
-    background-color: #6311BA;
+    background-color: #026d4d;
 }
 
 .qz-bg-purple-light{
@@ -25,7 +25,7 @@ html, body{
 }
 
 .qz-bg-purple-dark{
-    background-color: #2F0859;
+    background-color: #4d8379;
 }
 
 .qz-bg-blue-dark{
@@ -45,16 +45,16 @@ html, body{
     background-color: #0FA81A;
 }
 
-.qz-bg-green-light{
-    background-color: #E3FCE5;
-}
 
+.qz-bg-green-dark{
+    background-color: #51b751;
+}
 .qz-bg-red{
     background-color: #BA1130;
 }
 
 .qz-bg-green-light{
-    background-color: #FCE3E8;
+    background-color: #5ed391;
 }
 
 .qz-bg-white-light{
@@ -84,6 +84,11 @@ html, body{
 
 .qz-text-white-light {
     color: rgba(255, 255, 255, 0.65);
+}
+
+// wrap  text 
+.qz-text-wrap{
+    white-space: normal;
 }
 
 .qz-text-weight-light {

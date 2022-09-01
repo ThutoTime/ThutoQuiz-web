@@ -26,7 +26,7 @@ export class RegistrationComponent implements OnInit {
 
   ngOnInit(): void {
     // Change page color dynamically
-    this._bgColorService.updateBodyClass('qz-bg-blue');
+    this._bgColorService.updateBodyClass('qz-bg-green-light');
     // Check if user already logged in, redirect them based on roles
     try {
       if(this._authService.isLoggedIn()){

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "quizzards-client": {
+    "ThutoQuizs-client": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/quizzards-client",
+            "outputPath": "dist/ThutoQuizs-client",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -71,18 +71,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "quizzards-client:build"
+            "browserTarget": "ThutoQuizs-client:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "quizzards-client:build:production"
+              "browserTarget": "ThutoQuizs-client:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "quizzards-client:build"
+            "browserTarget": "ThutoQuizs-client:build"
           }
         },
         "test": {
@@ -119,18 +119,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "quizzards-client:serve"
+            "devServerTarget": "ThutoQuizs-client:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "quizzards-client:serve:production"
+              "devServerTarget": "ThutoQuizs-client:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "quizzards-client",
+  "defaultProject": "ThutoQuizs-client",
   "cli": {
     "analytics": "b08cc986-8004-48ba-a03d-97979b38aacb"
   }

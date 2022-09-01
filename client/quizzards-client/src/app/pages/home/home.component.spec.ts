@@ -28,6 +28,6 @@ fdescribe('HomeComponent', () => {
     const fixture = TestBed.createComponent(HomeComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.navbar-brand').textContent).toContain('Quizzards');
+    expect(compiled.querySelector('.navbar-brand').textContent).toContain('ThutoQuiz');
   });
 });

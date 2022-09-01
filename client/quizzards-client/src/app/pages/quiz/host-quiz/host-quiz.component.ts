@@ -40,7 +40,7 @@ export class HostQuizComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this._bgColorService.updateBodyClass("qz-bg-blue");
+    this._bgColorService.updateBodyClass("qz-bg-green-light");
     this.quizId=this._Activatedroute.snapshot.paramMap.get("quiz_id");
     // $('#datetimepicker').datetimepicker();
   }

@@ -51,7 +51,7 @@ export class PlayQuizComponent implements OnInit {
    }
 
   async ngOnInit() {
-    this._bgColorService.updateBodyClass("qz-bg-blue-light");
+    this._bgColorService.updateBodyClass("qz-bg-green-light");
     this.gamePin = this._Activatedroute.snapshot.paramMap.get("gamePIN");
     let isJoinedChallege = false;
     

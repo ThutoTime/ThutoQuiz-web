@@ -15,7 +15,7 @@ export class ChallengeReportComponent implements OnInit {
   constructor(private _bgColorService:BgColorService, private _authService: AuthService, private _router: Router, private reportsservice:ReportsService,private _Activatedroute:ActivatedRoute) { }
 
   ngOnInit(): void {
-    this._bgColorService.updateBodyClass('qz-bg-blue-light');
+    this._bgColorService.updateBodyClass('qz-bg-green-light');
     this.challengeId=this._Activatedroute.snapshot.paramMap.get("id");
     this.reportsservice.getChallengeReport(this.challengeId).subscribe(
       (res) => {

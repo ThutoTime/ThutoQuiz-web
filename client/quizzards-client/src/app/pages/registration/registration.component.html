@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col"></div>
         <div class="col-11 col-sm-11 col-md-9 col-lg-7 col-xl-6">
-            <h1 class="display-4 text-white font-weight-bold text-center mt-3" routerLink="/" style="cursor: pointer;">Quizzards</h1>
+            <h1 class="display-4 text-white font-weight-bold text-center mt-3" routerLink="/" style="cursor: pointer;">ThutoQuiz</h1>
             <div *ngIf="error_message" class="alert alert-danger alert-dismissible fade show mx-4 qz-border qz-rounded-corner qz-card-shadow" role="alert">
                 <h4 class="alert-heading">Error!</h4>
                 <p>{{error_message}}</p>
@@ -12,7 +12,7 @@
             </div>
             <div *ngIf="registration_successful" class="alert alert-success alert-dismissible fade show mx-4 qz-border qz-rounded-corner qz-card-shadow" role="alert">
                 <h4 class="alert-heading">Success!</h4>
-                <p>Welcome to quizzards!</p>
+                <p>Welcome to ThutoQuiz!</p>
                 <p>You will be automatically redirected to login page...</p>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
@@ -74,12 +74,12 @@
                             <div>
                                 <small class="text-danger mx-2" *ngIf="role.errors?.required">You must select role.</small>
                             </div>
-                        </div>
+                        </div>  
                         <div class="mt-3 float-right">
-                            <p>Already Registered?&nbsp; <a class="font-weight-bold" routerLink="/login">Go to Login</a></p>
+                            <p>Already Registered?&nbsp; <a class="font-weight-bold qz-text-green" routerLink="/login">Go to Login</a></p>
                         </div>
                     </div>
-                    <button [disabled]="!registrationForm.valid" type="submit" class="btn btn-primary mt-4 btn-block qz-btn qz-bg-blue">Sign Up</button>
+                    <button [disabled]="!registrationForm.valid" type="submit" class="btn  mt-4 btn-block qz-btn qz-bg-green-dark">Sign Up</button>
                     
                 </form>
             </div>

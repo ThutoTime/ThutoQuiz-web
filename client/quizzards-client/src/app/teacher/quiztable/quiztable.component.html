@@ -1,12 +1,12 @@
 
 <div class="row m-5">
   <div class="col-sm-8">
-    <h2><b>My Quizzes</b></h2>
-    <p>Quizzes are like question banks. You can create once and host multiple times!</p>
+    <h2 class="qz-text-white-light" ><b>My Quizzes</b></h2>
+    <p>Quizzes are like question banks . You can create once and host multiple times!</p>
   </div>
   <div class="col"></div>
   <div class="col-sm-2 my-3 float-right">
-    <button class="btn qz-btn qz-bg-blue text-white" routerLink="/quiz/create">Create Quiz</button>
+    <button class="btn qz-btn qz-bg-green text-white" routerLink="/quiz/create">Create Quiz</button>
   </div>
 </div>
 <div class="row m-5">
@@ -14,7 +14,7 @@
   <div class="col">
     <div *ngIf="quiz_info && quiz_info.length > 0; else elseBlock" class="qz-card table-box qz-rounded-corner-light">
       <table cellpadding="10 ">
-        <thead class="qz-bg-blue text-white">
+        <thead class="qz-bg-green-light text-white">
           <tr>
             <th>Quiz Name</th>
             <th>Created On</th>
@@ -38,8 +38,8 @@
     <!-- This block will show if there are no quizzes available -->
     <div class="m-5">
       <ng-template #elseBlock>
-        <h5>It seems you haven't created quiz yet!</h5>
-        <p>Why don't you create one? Click on 'Create Quiz' Button.</p>
+        <h5 class="qz-text-white-light" >  It seems you haven't created quiz yet!</h5>
+        <p class="qz-text-white-light">Why don't you create one? Click on 'Create Quiz' Button.</p>
       </ng-template>
     </div>
   </div>

@@ -32,7 +32,7 @@ export class CreateQuizComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this._bgColorService.updateBodyClass('qz-bg-blue');
+    this._bgColorService.updateBodyClass('qz-bg-green-light');
     this.addQuestion();
     document.getElementById("quizSettingsBtn").click();
   }

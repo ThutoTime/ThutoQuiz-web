@@ -8,6 +8,7 @@
     </div>
     <div>
       <button (click)="onAddQuestion()" class="qz-btn text-white m-3 qz-bg-blue" style="width: 84%; height: 2em">Add Question</button>
-      <button class="qz-btn text-white mx-3 qz-bg-green" style="width: 84%; height: 2em">Import Spreadsheet</button>
+      <input (change)="onImportSpreadSheet($event)"  class="qz-btn text-white mx-3 qz-bg-green" style="width: 84%; height: 2em"  type="file" /> 
+     
     </div>
 </div>

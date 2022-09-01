@@ -1,5 +1,5 @@
 {
-  "name": "quizzards-client",
+  "name": "ThutoQuizs-client",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -24,12 +24,16 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
     "@fortawesome/free-regular-svg-icons": "^5.15.1",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@grapecity/spread-excelio": "^15.2.0",
+    "@grapecity/spread-sheets": "^15.2.0",
+    "@grapecity/spread-sheets-angular": "^15.2.0",
     "angular-bootstrap-datetimepicker": "^4.0.2",
     "bootstrap": "^4.5.3",
     "bootstrap-datetime-picker": "^2.4.4",
     "chart.js": "^2.9.4",
     "chart.piecelabel.js": "^0.15.0",
     "cors": "^2.8.5",
+    "file-saver": "^2.0.5",
     "googleapis": "^67.0.0",
     "jquery": "^3.5.1",
     "moment": "^2.29.1",
@@ -38,6 +42,7 @@
     "open-iconic": "^1.1.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
+    "vercel": "^28.2.0",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {

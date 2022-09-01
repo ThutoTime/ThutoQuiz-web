@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col"></div>
         <div class="col-12 col-sm-9 col-md-7 col-lg-5 col-xl-4">
-            <h1 class="display-4 text-white font-weight-bold text-center mt-5" routerLink="/" style="cursor: pointer;">Quizzards</h1>
+            <h1 class="display-4 text-white font-weight-bold text-center mt-5" routerLink="/" style="cursor: pointer;">ThutoQuiz</h1>
 
             <div *ngIf="error_message" class="alert alert-danger alert-dismissible fade show mx-4 qz-border qz-rounded-corner qz-card-shadow" role="alert">
                 <h4 class="alert-heading">Error!</h4>
@@ -36,9 +36,9 @@
                         </div>
                     </div>
                     <div class="mt-3 float-right">
-                        <p>Not registered yet?&nbsp;<a class="font-weight-bold" routerLink="/register">Create Account</a></p>
+                        <p>Not registered yet?&nbsp;<a class="font-weight-bold  qz-text-green" routerLink="/register">Create Account</a></p>
                     </div>
-                    <button type="submit" class="btn btn-primary mt-5 btn-block qz-btn qz-bg-blue">Log in</button>
+                    <button type="submit" class="btn qz-btn mt-5 btn-block qz-btn qz-bg-green-dark">Log in</button>
                 </form>
             </div>
         </div>

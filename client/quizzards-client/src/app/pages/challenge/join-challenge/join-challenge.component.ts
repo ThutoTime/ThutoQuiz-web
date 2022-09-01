@@ -17,7 +17,7 @@ export class JoinChallengeComponent implements OnInit {
     gamePin: ['', [Validators.required] ]
   });
   ngOnInit(): void {
-    this._bgColorService.updateBodyClass('qz-bg-blue')
+    this._bgColorService.updateBodyClass('qz-bg-green-light');
   }
 
 

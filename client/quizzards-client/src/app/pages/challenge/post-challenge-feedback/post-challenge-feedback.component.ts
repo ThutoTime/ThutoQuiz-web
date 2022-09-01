@@ -25,7 +25,7 @@ export class PostChallengeFeedbackComponent implements OnInit {
    }
 
   ngOnInit(): void {
-    this._bgColorService.updateBodyClass('qz-bg-blue');
+    this._bgColorService.updateBodyClass('qz-bg-green-light');
     this.challengeId=this._Activatedroute.snapshot.paramMap.get("id");
     console.log("challengeId:"+this.challengeId);
   }

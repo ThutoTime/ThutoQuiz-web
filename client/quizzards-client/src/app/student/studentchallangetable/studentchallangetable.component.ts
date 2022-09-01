@@ -18,7 +18,7 @@ export class StudentchallangetableComponent implements OnInit {
   constructor(private _challengeService: ChallengeService,private reportservice:ReportsService,private _bgColorService:BgColorService) { }
 
   ngOnInit(): void {
-    this._bgColorService.updateBodyClass('qz-bg-blue-light')
+    this._bgColorService.updateBodyClass('qz-bg-green-light')
     this._challengeService.displayChallengesStudent()
     .subscribe((res) => {
         console.log("display : success");

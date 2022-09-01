@@ -14,7 +14,7 @@ export class TeacherDashboardComponent implements OnInit {
   constructor(private _bgColorService:BgColorService, private _authService: AuthService, private _router: Router) { }
 
   ngOnInit(): void {
-    this._bgColorService.updateBodyClass('qz-bg-blue-light')
+    this._bgColorService.updateBodyClass('qz-bg-green-light')
   }
 
   logout() {

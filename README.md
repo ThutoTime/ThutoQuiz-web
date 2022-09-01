@@ -5,7 +5,7 @@ There are two roles, namely student and teacher. The teacher can create a quiz a
 
 ## Development server
 
-Before starting the application, first create a database in mongo named "quizzards"
+Before starting the application, first create a database in mongo named "ThutoQuizs"
 <br/>
 To start the Server :
 <br/>
@@ -16,7 +16,7 @@ To start the Server :
 
 To run the application on the browser: <br/>
 
-3. Open a new terminal and run cd client/quizzards_client<br/>
+3. Open a new terminal and run cd client/ThutoQuizs_client<br/>
 4. ng serve <br/>
 5. Navigate to `http://localhost:4200/`.
 
@@ -29,45 +29,45 @@ To run the application on the browser: <br/>
 5. Teachers can get an overview of student's performances with the help of charts.
 
 Landing Page
-![Landing Page](client/quizzards-client/src/assets/img/landing_page.png)
+![Landing Page](client/ThutoQuizs-client/src/assets/img/landing_page.png)
 
 Registration Page :
-![Registration Page](client/quizzards-client/src/assets/img/register.png)
+![Registration Page](client/ThutoQuizs-client/src/assets/img/register.png)
 
 Login Page :
-![Login Page](client/quizzards-client/src/assets/img/login.png)
+![Login Page](client/ThutoQuizs-client/src/assets/img/login.png)
 
 ChatBot
-![Chatbot](client/quizzards-client/src/assets/img/chat_bot.png)
+![Chatbot](client/ThutoQuizs-client/src/assets/img/chat_bot.png)
 
 <br/>
 Teachers Side:
 <br/>
 
 Dashboard Page
-![Dashboard Page](client/quizzards-client/src/assets/img/teacher_dashboard.png)
+![Dashboard Page](client/ThutoQuizs-client/src/assets/img/teacher_dashboard.png)
 
 Create Quiz
-![Create Quiz](client/quizzards-client/src/assets/img/teacher_create_questions.png)
+![Create Quiz](client/ThutoQuizs-client/src/assets/img/teacher_create_questions.png)
 
 Challenge List
-![Challenge List](client/quizzards-client/src/assets/img/teacher_challenges_list.png)
+![Challenge List](client/ThutoQuizs-client/src/assets/img/teacher_challenges_list.png)
 
 View Feedback recived by Students
-![View Feedback](client/quizzards-client/src/assets/img/teacher_view_feedback_reports.png)
+![View Feedback](client/ThutoQuizs-client/src/assets/img/teacher_view_feedback_reports.png)
 
 View students performances via Charts
-![View Student Reports](client/quizzards-client/src/assets/img/teacher_view_student_reports.png)
+![View Student Reports](client/ThutoQuizs-client/src/assets/img/teacher_view_student_reports.png)
 
 <br/>
 Student Side:
 <br/>
 
 Dashboard Page
-![Dashboard Page](client/quizzards-client/src/assets/img/student_dashboard.png)
+![Dashboard Page](client/ThutoQuizs-client/src/assets/img/student_dashboard.png)
 
 View report of challenge
-![View Report](client/quizzards-client/src/assets/img/student_reports.png)
+![View Report](client/ThutoQuizs-client/src/assets/img/student_reports.png)
 
 Join Game
-![Game Pin](client/quizzards-client/src/assets/img/student_join_challenge.png)
+![Game Pin](client/ThutoQuizs-client/src/assets/img/student_join_challenge.png)
