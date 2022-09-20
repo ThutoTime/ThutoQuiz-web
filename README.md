@@ -1,4 +1,4 @@
-# Kahoot Clone
+# ThutoQuiz client WebApp
 
 This is a clone of the famous online quiz web application "Kahoot!". This application however has only one of the functionalitites of kahoot, that is create a quiz and host it as a challenge by setting start date and time, end date and time and share it with students. This application makes use of chart.js library for generating and displaying charts and dialogFlow for chatbot. This is developed using MEAN stack.<br/>
 There are two roles, namely student and teacher. The teacher can create a quiz and host it as a challenge by setting title, description, start date time, end date time. The students can log in to their account and play the quiz by entering the game PIN shared by the teacher. The student can see his score once the deadline has passed. The teacher can get a consolidated view of all student's performances with the help of charts.
